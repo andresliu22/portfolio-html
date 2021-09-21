@@ -111,7 +111,7 @@ section h2 {
   box-shadow: 0px 0px 10px var(--box-shadow-color);
 }
 
-.about article, .portfolio article, .skills article, .contact article {
+.about article, .work article, .skills article, .contact article {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
@@ -132,13 +132,12 @@ section h2 {
   padding: 20px;
 }
 
-.portfolio article a {
+.work article a:not(:first-child) {
   border-style: solid;
   border-width: 1px;
   border-radius: var(--border-radius);
   padding: 10px;
-  flex: 0 0 300px;
-  width: 50%;
+  flex: 1 0 300px;
   box-shadow: 5px 5px 5px var(--box-shadow-color);
   margin: 20px;
   text-decoration: none;
@@ -146,13 +145,26 @@ section h2 {
   cursor: pointer;
 }
 
-.portfolio article a:hover {
+.work article a:first-child {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  box-shadow: 5px 5px 5px var(--box-shadow-color);
+  margin: 20px;
+  text-decoration: none;
+  color: var(--box-shadow-color);
+  cursor: pointer;
+}
+
+.work article a:hover {
   opacity: 0.75;
   /* flex: 0 0 320px;
   height: 320px; */
 }
 
-/* .portfolio article a:hover .project > div{
+/* .work article a:hover .project > div{
   height: 240px;
 } */
 
