@@ -22,13 +22,20 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1%;
+  padding: 1% 2%;
   background-color: var(--header-footer-color);
   color: #fff;
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 300%;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+}
+
+header .logo img {
+  width: 250px;
 }
 
 h2 {
@@ -141,7 +148,7 @@ section h2 {
 .portfolio article a:hover {
   /* flex: 0 0 320px;
   height: 320px; */
-  opacity: 0.8;
+  opacity: 0.75;
 }
 
 /* .portfolio article a:hover .project > div{
@@ -185,7 +192,7 @@ section h2 {
 
   .about article div {
     width: 100%;
-    padding: 0 15px 0 15px;
+    padding: 10px 15px 10px 15px;
   }
 
 }
