@@ -2,6 +2,7 @@
     --white: #fff;
     --border-radius: 50px; 
     --header-footer-color: #2a2a2a;
+    --box-shadow-color: #aaaaaa;
 }
 
 html {
@@ -15,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
-    color: #fff;
+    color: var(--white);
 }
   
 header {
@@ -24,7 +25,7 @@ header {
   align-items: center;
   padding: 1% 2%;
   background-color: var(--header-footer-color);
-  color: #fff;
+  color: var(--white);
 }
 
 h1 {
@@ -54,12 +55,12 @@ nav a {
   color: #b9C6ae;
   font-weight: bold;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   padding: 15px;
 }
 
 nav a:hover {
-  color: #fff;
+  color: var(--white);
 }
 
 main {
@@ -83,7 +84,7 @@ footer {
   text-align: center;
   padding: 2%;
   background-color: var(--header-footer-color);
-  color: #fff;
+  color: var(--white);
 }
 
 footer .made-by {
@@ -107,7 +108,7 @@ footer .made-by {
 
 section h2 {
   text-align: center;
-  box-shadow: 0px 0px 10px #aaaaaa;
+  box-shadow: 0px 0px 10px var(--box-shadow-color);
 }
 
 .about article, .portfolio article, .skills article, .contact article {
@@ -138,17 +139,17 @@ section h2 {
   padding: 10px;
   flex: 0 0 300px;
   width: 50%;
-  box-shadow: 5px 5px 5px #aaaaaa;
+  box-shadow: 5px 5px 5px var(--box-shadow-color);
   margin: 20px;
   text-decoration: none;
-  color: #aaaaaa;
+  color: var(--box-shadow-color);
   cursor: pointer;
 }
 
 .portfolio article a:hover {
+  opacity: 0.75;
   /* flex: 0 0 320px;
   height: 320px; */
-  opacity: 0.75;
 }
 
 /* .portfolio article a:hover .project > div{
