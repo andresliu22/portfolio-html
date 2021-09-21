@@ -118,7 +118,7 @@ section h2 {
   padding: 20px;
 }
 
-.contact article div img {
+.contact article a div img {
   flex: 0 0 100px;
   width: 150px;
   padding: 20px;
