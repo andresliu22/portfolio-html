@@ -140,6 +140,16 @@ body {
     cursor: pointer;
   }
   
+  .portfolio article a:hover {
+    /* flex: 0 0 320px;
+    height: 320px; */
+    opacity: 0.8;
+  }
+
+  /* .portfolio article a:hover .project > div{
+    height: 240px;
+  } */
+
   .project header {
     border-radius: var(--border-radius) var(--border-radius) 0px 0px;
     padding: 20px;
