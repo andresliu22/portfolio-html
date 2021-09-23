@@ -4,7 +4,7 @@
 
 * I am a Full-stack Web Developer. I'm proactive, self-taught and a quick learner and have the key soft skills needed to succeed: great communication, excellent teamwork and an outstanding leadership.
 
-## Portfolio Picture
+## Site Picture
 
 ![Portfolio](./assets/images/snapshot.PNG)
 
@@ -49,7 +49,6 @@
 ## Contacts
 
 * [Linkedin](https://www.linkedin.com/in/andresliu22)
-
 * [Github](https://github.com/andresliu22)
 
 ## Acknowledgments
